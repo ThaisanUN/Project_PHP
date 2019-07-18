@@ -7,7 +7,7 @@
     <div class="mu-slider-single">
       <div class="mu-slider-img">
         <figure>
-          <img src="{{asset('img/slider/1.jpg')}}" alt="img">
+          <img src="{{asset('img/slider/2.jpg')}}" alt="img">
         </figure>
       </div>
       <div class="mu-slider-content">
@@ -23,7 +23,7 @@
     <div class="mu-slider-single">
       <div class="mu-slider-img">
         <figure>
-          <img src="{{asset('img/slider/2.jpg')}}" alt="img">
+          <img src="{{asset('img/slider/1.png')}}" alt="img">
         </figure>
       </div>
       <div class="mu-slider-content">
@@ -39,7 +39,7 @@
     <div class="mu-slider-single">
       <div class="mu-slider-img">
         <figure>
-          <img src="{{asset('img/slider/3.jpg')}}" alt="img">
+          <img src="{{asset('img/slider/3.png')}}" alt="img">
         </figure>
       </div>
       <div class="mu-slider-content">
@@ -50,7 +50,7 @@
         <a href="#" class="mu-read-more-btn">Read More</a>
       </div>
     </div>
-    <!-- Start single slider item -->    
+    <!-- Start single slider item -->
   </section>
   <!-- End Slider -->
   <!-- Start service  -->
@@ -92,13 +92,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="mu-about-us-area">           
+          <div class="mu-about-us-area">
             <div class="row">
               <div class="col-lg-6 col-md-6">
                 <div class="mu-about-us-left">
                   <!-- Start Title -->
                   <div class="mu-title">
-                    <h2>About Us</h2>              
+                    <h2>About Us</h2>
                   </div>
                   <!-- End Title -->
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum pariatur fuga eveniet soluta aspernatur rem, nam voluptatibus voluptate voluptates sapiente, inventore. Voluptatem, maiores esse molestiae.</p>
@@ -113,10 +113,10 @@
                 </div>
               </div>
               <div class="col-lg-6 col-md-6">
-                <div class="mu-about-us-right">                            
+                <div class="mu-about-us-right">
                 <a id="mu-abtus-video" href="https://www.youtube.com/embed/HN3pm9qYAUs" target="framename">
-                  <img src="{{asset('img/about-us.jpg')}}" alt="img">
-                </a>                
+                  <img src="{{asset('img/new_aboutUS.png')}}" alt="img">
+                </a>
                 </div>
               </div>
             </div>
@@ -406,14 +406,14 @@
                 <div class="col-lg-3 col-md-3  col-sm-6">
                   <div class="mu-our-teacher-single">
                     <figure class="mu-our-teacher-img">
-                      <img src="{{('img/teachers/teacher-01.png')}}" alt="teacher img">
+                      <img src="{{('img/teachers/profile_pic.png')}}" alt="teacher img">
                       <div class="mu-our-teacher-social">
                         <a href="#"><span class="fa fa-facebook"></span></a>
                         <a href="#"><span class="fa fa-twitter"></span></a>
                         <a href="#"><span class="fa fa-linkedin"></span></a>
                         <a href="#"><span class="fa fa-google-plus"></span></a>
                       </div>
-                    </figure>                    
+                    </figure>
                     <div class="mu-ourteacher-single-content">
                       <h4>Brian Dean</h4>
                       <span>Math Teacher</span>
@@ -424,14 +424,14 @@
                 <div class="col-lg-3 col-md-3 col-sm-6">
                   <div class="mu-our-teacher-single">
                     <figure class="mu-our-teacher-img">
-                      <img src="{{('img/teachers/teacher-02.png')}}" alt="teacher img">
+                      <img src="{{('img/teachers/profile_pic.png')}}" alt="teacher img">
                       <div class="mu-our-teacher-social">
                         <a href="#"><span class="fa fa-facebook"></span></a>
                         <a href="#"><span class="fa fa-twitter"></span></a>
                         <a href="#"><span class="fa fa-linkedin"></span></a>
                         <a href="#"><span class="fa fa-google-plus"></span></a>
                       </div>
-                    </figure>                    
+                    </figure>
                     <div class="mu-ourteacher-single-content">
                       <h4>James Hein</h4>
                       <span>Physics Teacher</span>
@@ -442,14 +442,14 @@
                 <div class="col-lg-3 col-md-3 col-sm-6">
                   <div class="mu-our-teacher-single">
                     <figure class="mu-our-teacher-img">
-                      <img src="{{asset('img/teachers/teacher-03.png')}}" alt="teacher img">
+                      <img src="{{asset('img/teachers/profile_pic2.png')}}" alt="teacher img">
                       <div class="mu-our-teacher-social">
                         <a href="#"><span class="fa fa-facebook"></span></a>
                         <a href="#"><span class="fa fa-twitter"></span></a>
                         <a href="#"><span class="fa fa-linkedin"></span></a>
                         <a href="#"><span class="fa fa-google-plus"></span></a>
                       </div>
-                    </figure>                    
+                    </figure>
                     <div class="mu-ourteacher-single-content">
                       <h4>Rebeca Michel</h4>
                       <span>English Teacher</span>
@@ -460,14 +460,14 @@
                 <div class="col-lg-3 col-md-3 col-sm-6">
                   <div class="mu-our-teacher-single">
                     <figure class="mu-our-teacher-img">
-                      <img src="{{asset('img/teachers/teacher-04.png')}}" alt="teacher img">
+                      <img src="{{asset('img/teachers/profile_pic.png')}}" alt="teacher img">
                       <div class="mu-our-teacher-social">
                         <a href="#"><span class="fa fa-facebook"></span></a>
                         <a href="#"><span class="fa fa-twitter"></span></a>
                         <a href="#"><span class="fa fa-linkedin"></span></a>
                         <a href="#"><span class="fa fa-google-plus"></span></a>
                       </div>
-                    </figure>                    
+                    </figure>
                     <div class="mu-ourteacher-single-content">
                       <h4>John Doe</h4>
                       <span>Biology Teacher</span>
@@ -476,8 +476,8 @@
                   </div>
                 </div>
               </div>
-            </div> 
-            <!-- End our teacher content -->           
+            </div>
+            <!-- End our teacher content -->
           </div>
         </div>
       </div>
@@ -559,17 +559,17 @@
               <h2>From Blog</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum vitae quae vero ut natus. Dolore!</p>
             </div>
-            <!-- end title -->  
+            <!-- end title -->
             <!-- start from blog content   -->
             <div class="mu-from-blog-content">
               <div class="row">
                 <div class="col-md-4 col-sm-4">
                   <article class="mu-blog-single-item">
                     <figure class="mu-blog-single-img">
-                      <a href="#"><img src="{{asset('img/blog/blog-1.jpg')}}" alt="img"></a>
+                      <a href="#"><img src="{{asset('img/blog/image_blog.jpg')}}" alt="img"></a>
                       <figcaption class="mu-blog-caption">
                         <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                      </figcaption>                      
+                      </figcaption>
                     </figure>
                     <div class="mu-blog-meta">
                       <a href="#">By Admin</a>
@@ -585,10 +585,10 @@
                 <div class="col-md-4 col-sm-4">
                   <article class="mu-blog-single-item">
                     <figure class="mu-blog-single-img">
-                      <a href="#"><img src="{{asset('img/blog/blog-2.jpg')}}" alt="img"></a>
+                      <a href="#"><img src="{{asset('img/blog/image_blog2.jpg')}}" alt="img"></a>
                       <figcaption class="mu-blog-caption">
                         <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                      </figcaption>                      
+                      </figcaption>
                     </figure>
                     <div class="mu-blog-meta">
                       <a href="#">By Admin</a>
@@ -604,10 +604,10 @@
                 <div class="col-md-4 col-sm-4">
                   <article class="mu-blog-single-item">
                     <figure class="mu-blog-single-img">
-                      <a href="#"><img src="{{asset('img/blog/blog-3.jpg')}}" alt="img"></a>
+                      <a href="#"><img src="{{asset('img/blog/image_blog3.jpg')}}" alt="img"></a>
                       <figcaption class="mu-blog-caption">
                         <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                      </figcaption>                      
+                      </figcaption>
                     </figure>
                     <div class="mu-blog-meta">
                       <a href="#">By Admin</a>
@@ -621,8 +621,8 @@
                   </article>
                 </div>
               </div>
-            </div>     
-            <!-- end from blog content   -->   
+            </div>
+            <!-- end from blog content   -->
           </div>
         </div>
       </div>
