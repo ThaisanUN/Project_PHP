@@ -9,7 +9,7 @@
          <div class="mu-page-breadcrumb-area">
            <h2>Course Detail</h2>
            <ol class="breadcrumb">
-            <li><a href="#">Home</a></li>            
+            <li><a href="#">Home</a></li>
             <li class="active">Course Detail</li>
           </ol>
          </div>
@@ -31,9 +31,9 @@
                     <div class="col-md-12">
                       <div class="mu-latest-course-single">
                         <figure class="mu-latest-course-img">
-                          <a href="#"><img src="assets/img/courses/1.jpg" alt="img"></a>
+                          <a href="#"><img src="{{asset('img/courses/1.jpg')}}" alt="img"></a>
                           <figcaption class="mu-latest-course-imgcaption">
-                            <a href="#">Drawing</a>
+                            <a href="#">Programming</a>
                             <span><i class="fa fa-clock-o"></i>90Days</span>
                           </figcaption>
                         </figure>
@@ -107,8 +107,8 @@
                           </table>
                           </div>
                         </div>
-                      </div> 
-                    </div>                                   
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <!-- end course content container -->
@@ -122,7 +122,7 @@
                       <div class="col-md-6">
                         <div class="mu-latest-course-single">
                           <figure class="mu-latest-course-img">
-                            <a href="#"><img alt="img" src="assets/img/courses/1.jpg"></a>
+                            <a href="#"><img alt="img" src="{{asset('img/courses/1.jpg')}}"></a>
                             <figcaption class="mu-latest-course-imgcaption">
                               <a href="#">Drawing</a>
                               <span><i class="fa fa-clock-o"></i>90Days</span>
@@ -141,7 +141,7 @@
                       <div class="col-md-6">
                         <div class="mu-latest-course-single">
                           <figure class="mu-latest-course-img">
-                            <a href="#"><img alt="img" src="assets/img/courses/2.jpg"></a>
+                            <a href="#"><img alt="img" src="{{asset('img/courses/2.jpg')}}"></a>
                             <figcaption class="mu-latest-course-imgcaption">
                               <a href="#">Drawing</a>
                               <span><i class="fa fa-clock-o"></i>90Days</span>
@@ -160,7 +160,7 @@
                       <div class="col-md-6">
                         <div class="mu-latest-course-single">
                           <figure class="mu-latest-course-img">
-                            <a href="#"><img alt="img" src="assets/img/courses/3.jpg"></a>
+                            <a href="#"><img alt="img" src="{{asset('img/courses/3.jpg')}}"></a>
                             <figcaption class="mu-latest-course-imgcaption">
                               <a href="#">Drawing</a>
                               <span><i class="fa fa-clock-o"></i>90Days</span>
@@ -179,7 +179,7 @@
                       <div class="col-md-6">
                         <div class="mu-latest-course-single">
                           <figure class="mu-latest-course-img">
-                            <a href="#"><img alt="img" src="assets/img/courses/1.jpg"></a>
+                            <a href="#"><img alt="img" src="{{asset('img/courses/1.jpg')}}"></a>
                             <figcaption class="mu-latest-course-imgcaption">
                               <a href="#">Drawing</a>
                               <span><i class="fa fa-clock-o"></i>90Days</span>
@@ -225,33 +225,33 @@
                       <div class="media">
                         <div class="media-left">
                           <a href="#">
-                            <img class="media-object" src="assets/img/courses/1.jpg" alt="img">
+                            <img class="media-object" src="{{asset('img/courses/1.jpg')}}"alt="img">
                           </a>
                         </div>
                         <div class="media-body">
-                          <h4 class="media-heading"><a href="#">Medical Science</a></h4>                      
+                          <h4 class="media-heading"><a href="#">Medical Science</a></h4>
                           <span class="popular-course-price">$200.00</span>
                         </div>
                       </div>
                       <div class="media">
                         <div class="media-left">
                           <a href="#">
-                            <img class="media-object" src="assets/img/courses/2.jpg" alt="img">
+                            <img class="media-object" src="{{asset('img/courses/2.jpg')}}" alt="img">
                           </a>
                         </div>
                         <div class="media-body">
-                          <h4 class="media-heading"><a href="#">Web Design</a></h4>                      
+                          <h4 class="media-heading"><a href="#">Web Design</a></h4>
                           <span class="popular-course-price">$250.00</span>
                         </div>
                       </div>
                       <div class="media">
                         <div class="media-left">
                           <a href="#">
-                            <img class="media-object" src="assets/img/courses/3.jpg" alt="img">
+                            <img class="media-object" src="{{asset('img/courses/3.jpg')}}" alt="img">
                           </a>
                         </div>
                         <div class="media-body">
-                          <h4 class="media-heading"><a href="#">Health & Sports</a></h4>                      
+                          <h4 class="media-heading"><a href="#">Health & Sports</a></h4>
                           <span class="popular-course-price">$90.00</span>
                         </div>
                       </div>

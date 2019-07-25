@@ -1,4 +1,4 @@
- 
+
  @extends('layouts.app')
 
 @section('content')
@@ -17,7 +17,7 @@
           <!-- start gallery content -->
           <div class="mu-gallery-content">
             <!-- Start gallery menu -->
-            <div class="mu-gallery-top">              
+            <div class="mu-gallery-top">
               <ul>
                 <li class="filter active" data-filter="all">All</li>
                 <li class="filter" data-filter=".lab">Lab</li>
@@ -32,10 +32,10 @@
               <ul id="mixit-container" class="row">
                 <!-- start single gallery image -->
                 <li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
+                  <div class="mu-single-gallery">
                     <div class="mu-single-gallery-item">
                       <div class="mu-single-gallery-img">
-                        <a href="#"><img alt="img" src="assets/img/gallery/small/1.jpg"></a>
+                        <a href="#"><img alt="img" src="{{asset('img/gallery/big/1.jpg')}}"></a>
                       </div>
                       <div class="mu-single-gallery-info">
                         <div class="mu-single-gallery-info-inner">
@@ -44,13 +44,13 @@
                           <a href="assets/img/gallery/big/1.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
                           <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
                         </div>
-                      </div>                  
+                      </div>
                     </div>
                   </div>
                 </li>
                 <!-- start single gallery image -->
                <li class="col-md-4 col-sm-6 col-xs-12 mix library">
-                  <div class="mu-single-gallery">                  
+                  <div class="mu-single-gallery">
                     <div class="mu-single-gallery-item">
                       <div class="mu-single-gallery-img">
                         <a href="#"><img alt="img" src="assets/img/gallery/small/2.jpg"></a>
@@ -62,13 +62,13 @@
                           <a href="assets/img/gallery/big/2.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
                           <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
                         </div>
-                      </div> 
+                      </div>
                     </div>
                   </div>
                </li>
                 <!-- start single gallery image -->
                 <li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
+                  <div class="mu-single-gallery">
                     <div class="mu-single-gallery-item">
                       <div class="mu-single-gallery-img">
                         <a href="#"><img alt="img" src="assets/img/gallery/small/3.jpg"></a>
@@ -86,7 +86,7 @@
                 </li>
                 <!-- start single gallery image -->
                 <li class="col-md-4 col-sm-6 col-xs-12 mix classroom">
-                  <div class="mu-single-gallery">                  
+                  <div class="mu-single-gallery">
                     <div class="mu-single-gallery-item">
                       <div class="mu-single-gallery-img">
                         <a href="#"><img alt="img" src="assets/img/gallery/small/4.jpg"></a>
@@ -104,7 +104,7 @@
                 </li>
                 <!-- start single gallery image -->
                 <li class="col-md-4 col-sm-6 col-xs-12 mix others">
-                  <div class="mu-single-gallery">                  
+                  <div class="mu-single-gallery">
                     <div class="mu-single-gallery-item">
                       <div class="mu-single-gallery-img">
                         <a href="#"><img alt="img" src="assets/img/gallery/small/5.jpg"></a>
@@ -122,7 +122,7 @@
                 </li>
                 <!-- start single gallery image -->
                 <li class="col-md-4 col-sm-6 col-xs-12 mix cafe">
-                  <div class="mu-single-gallery">                  
+                  <div class="mu-single-gallery">
                     <div class="mu-single-gallery-item">
                       <div class="mu-single-gallery-img">
                         <a href="#"><img alt="img" src="assets/img/gallery/small/6.jpg"></a>
@@ -140,7 +140,7 @@
                 </li>
                 <!-- start single gallery image -->
                 <li class="col-md-4 col-sm-6 col-xs-12 mix others">
-                  <div class="mu-single-gallery">                  
+                  <div class="mu-single-gallery">
                     <div class="mu-single-gallery-item">
                       <div class="mu-single-gallery-img">
                         <a href="#"><img alt="img" src="assets/img/gallery/small/7.jpg"></a>
@@ -152,13 +152,13 @@
                           <a href="assets/img/gallery/big/7.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
                           <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
                         </div>
-                      </div>             
+                      </div>
                     </div>
-                  </div> 
+                  </div>
                 </li>
                  <!-- start single gallery image -->
                 <li class="col-md-4 col-sm-6 col-xs-12 mix library">
-                  <div class="mu-single-gallery">                  
+                  <div class="mu-single-gallery">
                     <div class="mu-single-gallery-item">
                       <div class="mu-single-gallery-img">
                         <a href="#"><img alt="img" src="assets/img/gallery/small/8.jpg"></a>
@@ -176,7 +176,7 @@
                 </li>
                 <!-- start single gallery image -->
                 <li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
+                  <div class="mu-single-gallery">
                     <div class="mu-single-gallery-item">
                       <div class="mu-single-gallery-img">
                         <a href="#"><img alt="img" src="assets/img/gallery/small/9.jpg"></a>
@@ -188,11 +188,11 @@
                           <a href="assets/img/gallery/big/9.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
                           <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
                         </div>
-                      </div>             
+                      </div>
                     </div>
-                  </div> 
+                  </div>
                 </li>
-              </ul>            
+              </ul>
             </div>
           </div>
           <!-- end gallery content -->

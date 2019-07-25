@@ -268,18 +268,18 @@
               <div class="col-lg-4 col-md-4 col-xs-12">
                 <div class="mu-latest-course-single">
                   <figure class="mu-latest-course-img">
-                    <a href="#"><img src="{{asset('img/courses/1.jpg')}}" alt="img"></a>
+                    <a href="http://127.0.0.1:8000/course-detail"><img src="{{asset('img/courses/1.jpg')}}" alt="img"></a>
                     <figcaption class="mu-latest-course-imgcaption">
-                      <a href="#">Drawing</a>
+                      <a>Drawing</a>
                       <span><i class="fa fa-clock-o"></i>90Days</span>
                     </figcaption>
                   </figure>
                   <div class="mu-latest-course-single-content">
-                    <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
+                    <h4><a >Lorem ipsum dolor sit amet.</a></h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
                     <div class="mu-latest-course-single-contbottom">
-                      <a class="mu-course-details" href="#">Details</a>
-                      <span class="mu-course-price" href="#">$165.00</span>
+                      <a class="mu-course-details" href="http://127.0.0.1:8000/course-detail">Details</a>
+                      <span class="mu-course-price">$165.00</span>
                     </div>
                   </div>
                 </div>
@@ -287,18 +287,18 @@
               <div class="col-lg-4 col-md-4 col-xs-12">
                 <div class="mu-latest-course-single">
                   <figure class="mu-latest-course-img">
-                    <a href="#"><img src="{{asset('img/courses/2.jpg')}}" alt="img"></a>
+                    <a href="http://127.0.0.1:8000/course-detail"><img src="{{asset('img/courses/2.jpg')}}" alt="img"></a>
                     <figcaption class="mu-latest-course-imgcaption">
-                      <a href="#">Engineering </a>
+                      <a>Math </a>
                       <span><i class="fa fa-clock-o"></i>75Days</span>
                     </figcaption>
                   </figure>
                   <div class="mu-latest-course-single-content">
-                    <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
+                    <h4><a>Lorem ipsum dolor sit amet.</a></h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
                     <div class="mu-latest-course-single-contbottom">
-                      <a class="mu-course-details" href="#">Details</a>
-                      <span class="mu-course-price" href="#">$165.00</span>
+                      <a class="mu-course-details" href="http://127.0.0.1:8000/course-detail">Details</a>
+                      <span class="mu-course-price">$165.00</span>
                     </div>
                   </div>
                 </div>
@@ -306,18 +306,18 @@
               <div class="col-lg-4 col-md-4 col-xs-12">
                 <div class="mu-latest-course-single">
                   <figure class="mu-latest-course-img">
-                    <a href="#"><img src="{{asset('img/courses/3.jpg')}}" alt="img"></a>
+                    <a href="http://127.0.0.1:8000/course-detail"><img src="{{asset('img/courses/3.jpg')}}" alt="img"></a>
                     <figcaption class="mu-latest-course-imgcaption">
-                      <a href="#">Academic</a>
+                      <a>Mobile Development</a>
                       <span><i class="fa fa-clock-o"></i>45Days</span>
                     </figcaption>
                   </figure>
                   <div class="mu-latest-course-single-content">
-                    <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
+                    <h4><a>Lorem ipsum dolor sit amet.</a></h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
                     <div class="mu-latest-course-single-contbottom">
-                      <a class="mu-course-details" href="#">Details</a>
-                      <span class="mu-course-price" href="#">$165.00</span>
+                      <a class="mu-course-details" href="http://127.0.0.1:8000/course-detail">Details</a>
+                      <span class="mu-course-price">$165.00</span>
                     </div>
                   </div>
                 </div>
